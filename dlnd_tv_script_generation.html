@@ -13075,7 +13075,7 @@ Epoch:   10/10    Loss: 3.205275180339813
 <li>batch_size : tried 50, 100, 200, the best of them was 100. With 50, the training was too slow. With 200, I got an Out Of Memory error on GPU.</li>
 <li>embedding_dim: commonly used values are between 300 - 400, I chose 300 as this is a simple network.</li>
 <li>hidden_dim : should be larger than embedding_dim (300), I chose the smallest value of some power of 2 and bigger than 300, which is 512</li>
-<li>learning_rate : 0.001 is a common start value, tried 0.01 but it made it worse, also tried 0.0001, but it was decreasing too slow.</li>
+<li>learning_rate : 0.001 is a common start value, tried 0.01 but it didn't seem converging, also tried 0.0001, but it was learning too slowly.</li>
 <li>epochs : 10 is enough to get desired result</li>
 <li>n_layers : I decided to start with 2 layers, if the result is not good enough I would make 3 layers. It turns out 2 is good.</li>
 </ul>
