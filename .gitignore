@@ -112,7 +112,6 @@ venv.bak/
 
 # Rope project settings
 .ropeproject
-data/
 
 # mkdocs documentation
 /site
@@ -125,5 +124,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/
-preprocess.p
+
 trained_rnn.pt
